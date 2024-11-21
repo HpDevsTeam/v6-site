@@ -1,0 +1,214 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: white;
+    color: red;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.flexmenus{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin: auto;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.navpc{
+    margin: auto;
+}
+
+.navpc ul{
+   list-style: none;
+}
+
+.navpc li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.navpc a{
+    color: red;
+    text-decoration: none;
+}
+
+.navpc a:hover{
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.flexmeio{
+    display: flex;
+    background-color: white;
+    padding: 30px 0px;
+}
+
+.menumobile{
+    display: none;
+}
+
+.oculta{
+    display: none;
+    background-color: white;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 1000vh;
+}
+
+.oculta li{
+    list-style: none;
+    padding: 20px;
+}
+
+.oculta a{
+    color: red;
+}
+
+.fecharmenu{
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: white;
+    color: red;
+}
+
+.fix{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items{
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    background-color: tomato;
+    color: white;
+}
+
+.items img{
+    width: 300px;
+    height: 300px;
+}
+
+.pular{
+    margin: 200px 0px;
+    text-align: center;
+}
+
+.pular ul{
+    list-style: none;
+}
+
+.pular li{
+    display: inline-block;
+}
+
+.pular a{
+    color: white;
+    background-color: gray;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.pular a:hover{
+    background-color: black;
+}
+
+.pular li a.active{
+   background-color: blue;
+}
+
+.texto{
+    margin: 20px;
+}
+
+.texto p{
+    margin: 100px;
+}
+
+.latealdireita{
+    box-shadow: 3px 3px 3px 3px black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.fixlateral{
+    margin: 20px 20px;
+    width: 250px;
+}
+
+.lupa{
+  display: flex;
+}
+
+.lupa input{
+    height: 30px;
+}
+
+.lupa button{
+    background-color: red;
+    color: white;
+}
+
+.grupo{
+    margin: 50px 0px;
+}
+
+.itenslate{
+    margin: 50px 0px;
+}
+
+.itenslate ul{
+    list-style: none;
+}
+
+.itenslate li{
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.itenslate a{
+   color: red;
+   text-decoration: none;
+   background-color: black;
+   padding: 10px;
+}
+
+.itenslate a:hover{
+    color: white;
+    background-color: black;
+}
+
+.mgimg img{
+    margin: 10px 0px;
+}
+
+.rodape{
+    padding: 50px;
+    background-color: white;
+}
+
+.copy{
+    text-align: center;
+}
