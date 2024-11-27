@@ -1,0 +1,180 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "footer footer footer"
+    ;
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(22, 20, 20);
+}
+
+aside{
+    grid-area: aside;
+    background-color: rgb(22, 20, 20);
+}
+
+footer{
+    grid-area: footer;
+}
+
+.titulo {
+    padding: 50px;
+}
+
+.conteudos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteudos img{
+    width: 300px;
+    margin: 10px;
+}
+
+.informaces{
+    text-align: center;
+    margin: 50px;
+}
+
+.informaces h2{
+    margin: 30px 0px;
+}
+
+.informaces a{
+    color: white;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.informaces a:hover{
+    opacity: 0.7;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+}
+
+.logotipo img{
+    width: 89px;
+}
+
+.navegacao{
+    margin: auto;
+}
+
+.navegacao ul{
+    list-style: none;
+}
+
+.navegacao li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.navegacao a{
+    color: white;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.navegacao a:hover{
+    opacity: 0.7;
+}
+
+.botaomenu{
+    display: none;
+}
+
+.navmobi{
+    display: none;
+}
+
+.botaomenu img{
+    width: 50px;
+}
+
+.lupa{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.lupa input{
+    height: 30px;
+}
+
+.destaques{
+    text-align: center;
+}
+
+.destaques h3{
+    margin: 30px 0px;
+}
+
+.destaques img{
+    width: 50%;
+    height: 200px;
+    margin: 20px 0px;
+}
+
+.sitesxxx{
+    text-align: center;
+}
+
+.sitesxxx h3{
+    margin: 30px 0px;
+}
+
+.sitesxxx ul{
+    list-style: none;
+}
+
+.sitesxxx li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.sitesxxx a{
+    color: red;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.sitesxxx a:hover{
+    opacity: 0.7;
+}
+
+.quadros{
+    display: flex;
+}
+
+.coops{
+    margin: 50px;
+}
+
+.coopy{
+    margin: 50px;
+}

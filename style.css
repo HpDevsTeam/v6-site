@@ -6,233 +6,208 @@
 }
 
 body{
-    background-color: white;
-    color: red;
-}
-
-.titulo{
-    text-align: center;
-    margin: 50px 0px;
-}
-
-.flexmenus{
-    display: flex;
-    align-items: center;
-}
-
-.logo{
-    margin: auto;
-}
-
-.logo img{
-    width: 80px;
-}
-
-.navpc{
-    margin: auto;
-}
-
-.navpc ul{
-   list-style: none;
-}
-
-.navpc li{
-    display: inline-block;
-    padding: 20px;
-}
-
-.navpc a{
-    color: red;
-    text-decoration: none;
-}
-
-.navpc a:hover{
-    padding: 10px;
     color: white;
     background-color: black;
 }
 
-.flexmeio{
-    display: flex;
-    background-color: white;
-    padding: 30px 0px;
+.container{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "footer footer footer"
+    ;
 }
 
-.menumobile{
-    display: none;
+header{
+    grid-area: header;
 }
 
-.oculta{
-    display: none;
-    background-color: white;
-    box-shadow: 3px 3px 3px black;
-    border-radius: 10px;
-    padding: 40px;
-    position: absolute;
-    top: 0;
-    width: 200px;
-    height: 1000vh;
+main{
+    grid-area: main;
+    background-color: rgb(22, 20, 20);
 }
 
-.oculta li{
-    list-style: none;
-    padding: 20px;
+aside{
+    grid-area: aside;
+    background-color: rgb(22, 20, 20);
 }
 
-.oculta a{
-    color: red;
+footer{
+    grid-area: footer;
 }
 
-.fecharmenu{
-    position: absolute;
-    right: 20px;
-    padding: 10px;
-    background-color: white;
-    color: red;
-}
-
-.fix{
+.conteudos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.items{
-    margin: 10px;
-    padding: 10px;
-    width: 250px;
-    background-color: tomato;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
+.display{
+    display: flex;
+    align-items: center;
 }
 
-.items img{
-    width: 300px;
-    height: 300px;
+.logotipo img{
+    width: 89px;
 }
 
-.items p,h3{
+.titulo{
+    margin: 50px;
+}
+
+.titulo h1{
     margin: 20px 0px;
 }
 
-.items a{
+.navegacao{
+    margin: auto;
+}
+
+.navegacao ul{
+    list-style: none;
+}
+
+.navegacao li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.navegacao a{
     color: white;
-    background-color: black;
-    padding: 10px 90px;
-    border-radius: 10px;
     opacity: 1;
     text-decoration: none;
 }
 
-.items a:hover{
+.navegacao a:hover{
     opacity: 0.7;
 }
 
-.pular{
-    margin: 200px 0px;
-    text-align: center;
+.botaomenu{
+    display: none;
 }
 
-.pular ul{
-    list-style: none;
+.navmobi{
+    display: none;
 }
 
-.pular li{
-    display: inline-block;
+.botaomenu img{
+    width: 50px;
 }
 
-.pular a{
-    color: white;
-    background-color: gray;
+.jogos{
+    width: 300px;
+    background-color: black;
     padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.jogos h2{
+    margin: 20px 0px;
+}
+
+.jogos img{
+    width: 200px;
+    height: 200px;
+}
+
+.jogos button{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.jogos a{
+    color: black;
     text-decoration: none;
 }
 
-.pular a:hover{
-    background-color: black;
+.jogos a:hover{
+    opacity: 0.7;
 }
 
-.pular li a.active{
-   background-color: blue;
-}
-
-.texto{
-    margin: 20px;
-}
-
-.texto p{
-    margin: 100px;
-}
-
-.latealdireita{
-    box-shadow: 3px 3px 3px 3px black;
-    border-radius: 10px;
-    padding: 20px;
+.proximapagina{
     text-align: center;
-}
-
-.fixlateral{
-    margin: 20px 20px;
-    width: 250px;
-}
-
-.itemslateral h3{
     margin: 30px 0px;
 }
 
+.proximapagina button{
+    padding: 10px;
+    background-color: rgb(49, 180, 141);
+}
+
+.proximapagina a{
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.proximapagina a:hover{
+    opacity: 0.7;
+}
+
 .lupa{
-  display: flex;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
 .lupa input{
     height: 30px;
 }
 
-.lupa button{
-    background-color: red;
-    color: white;
+.destaques{
+    text-align: center;
 }
 
-.grupo{
-    margin: 50px 0px;
+.destaques h3{
+    margin: 30px 0px;
 }
 
-.itenslate{
-    margin: 50px 0px;
-}
-
-.itenslate ul{
-    list-style: none;
-}
-
-.itenslate li{
-    display: inline-block;
-    padding: 10px;
+.destaques img{
+    width: 50%;
+    height: 200px;
     margin: 20px 0px;
 }
 
-.itenslate a{
-   color: white;
-   text-decoration: none;
-   background-color: tomato;
-   padding: 10px;
-}
-
-.itenslate a:hover{
-    color: white;
-    background-color: black;
-}
-
-.mgimg img{
-    margin: 10px 0px;
-}
-
-.rodape{
-    margin: 100px 0px;
-    background-color: white;
-}
-
-.copy{
+.sitesxxx{
     text-align: center;
+}
+
+.sitesxxx h3{
+    margin: 30px 0px;
+}
+
+.sitesxxx ul{
+    list-style: none;
+}
+
+.sitesxxx li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.sitesxxx a{
+    color: red;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.sitesxxx a:hover{
+    opacity: 0.7;
+}
+
+.quadros{
+    display: flex;
+}
+
+.coops{
+    margin: 50px;
+}
+
+.coopy{
+    margin: 50px;
 }
