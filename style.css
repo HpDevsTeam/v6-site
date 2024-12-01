@@ -7,12 +7,11 @@
 
 body{
     color: white;
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 .container{
     display: grid;
-    gap: 5px;
     grid-template-areas: 
     "header header header"
     "main main aside"
@@ -26,12 +25,15 @@ header{
 
 main{
     grid-area: main;
-    background-color: rgb(22, 20, 20);
+    background-color: whitesmoke;
+    color: black;
 }
 
 aside{
     grid-area: aside;
-    background-color: rgb(22, 20, 20);
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 3px 10px 3px 3px black;
 }
 
 footer{
@@ -47,10 +49,12 @@ footer{
 .display{
     display: flex;
     align-items: center;
+    background-color: white;
 }
 
 .logotipo img{
     width: 89px;
+    border-radius: 50px;
 }
 
 .titulo{
@@ -75,7 +79,7 @@ footer{
 }
 
 .navegacao a{
-    color: white;
+    color: black;
     opacity: 1;
     text-decoration: none;
 }
@@ -98,7 +102,7 @@ footer{
 
 .jogos{
     width: 300px;
-    background-color: black;
+    background-color: white;
     padding: 20px;
     margin: 20px;
     text-align: center;
@@ -202,6 +206,8 @@ footer{
 
 .quadros{
     display: flex;
+    background-color: whitesmoke;
+    color: black;
 }
 
 .coops{
@@ -210,4 +216,6 @@ footer{
 
 .coopy{
     margin: 50px;
+    background-color: whitesmoke;
+    color: black;
 }

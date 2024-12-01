@@ -33,16 +33,17 @@ footer{
     grid-area: footer;
 }
 
+.item{
+    background-color: ;
+    padding: 20px 0px;
+}
+
 .display{
     display: flex;
 }
 
 .logotipo{
-    margin: auto;
-}
-
-.logotipo img{
-    width: 89px;
+    margin: 0;
 }
 
 .navegacao{
@@ -70,6 +71,8 @@ footer{
 
 .botaomenu{
     display: block;
+    position: absolute;
+    right: 0;
 }
 
 .botaomenu img{
@@ -134,9 +137,10 @@ footer{
 }
 
 .destaques img{
+    display: flex;
     width: 200px;
     height: 200px;
-    margin: 20px 0px;
+    margin: 20px auto;
 }
 
 .sitesxxx{
